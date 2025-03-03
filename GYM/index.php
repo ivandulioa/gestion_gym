@@ -11,6 +11,7 @@
     <div class="container mt-5">
         <h1 class="text-center mb-4">Sistema de Gestión del Gimnasio</h1>
         <div class="row">
+            <!-- Usuarios -->
             <div class="col-md-6">
                 <div class="card">
                     <div class="card-header bg-primary text-white">
@@ -22,6 +23,8 @@
                     </div>
                 </div>
             </div>
+            
+            <!-- Membresías -->
             <div class="col-md-6">
                 <div class="card">
                     <div class="card-header bg-success text-white">
@@ -33,6 +36,8 @@
                     </div>
                 </div>
             </div>
+            
+            <!-- Registro de Asistencias -->
             <div class="col-md-6">
                 <div class="card">
                     <div class="card-header bg-info text-white">
@@ -45,6 +50,8 @@
                     </div>
                 </div>
             </div>
+            
+            <!-- Control de Ventas -->
             <div class="col-md-6">
                 <div class="card">
                     <div class="card-header bg-warning text-white">
@@ -54,12 +61,23 @@
                         <p>Registrar y consultar ventas.</p>
                         <a href="control_ventas.php" class="btn btn-warning">Venta</a>
                         <a href="inventario.php" class="btn btn-secondary">Ver Inventario</a>
-
                     </div>
                 </div>
             </div>
 
-
+            <!-- Registro de Empleados -->
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header bg-dark text-white">
+                        <h3 class="text-center"><i class="fa fa-briefcase"></i> Registro de Empleados</h3>
+                    </div>
+                    <div class="card-body text-center">
+                        <p>Registrar y gestionar los empleados del gimnasio, con registro de entrada y salida.</p>
+                        <a href="registro_empleados.php" class="btn btn-dark">Registrar Empleados</a>
+                        <a href="registro_horas.php" class="btn btn-secondary">Asistencia Empleados</a>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </body>
